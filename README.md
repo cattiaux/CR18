@@ -3,7 +3,7 @@ Codes associated with Cattiaux &amp; Ribes (2018), Defining single extreme weath
 
 Details:
 
-- rbase.R contains basic functions, e.g. the treatment of netcdf files (function myno() imports a netcdf in a list, etc.) or the treatment of time/dates, etc.
+- rbase.R contains basic functions, e.g. the treatment of netcdf files (function myno() imports a netcdf in a list, etc.) or the treatment of time/dates, etc. It also sources several packages that the user will need to install.
 - functions.R contains the functions dedicated to the event definition issue, e.g. compute.stat.1d() that computes p1, p0, far, etc. at a given location for various time windows and compute.stat.2d() that generalizes to various spatial domains.
 - figures.R contains the functions used for plotting the results.
 - lon-lat_analysis.R contains the generation of spatial domains of various sizes for a lon-lat analysis.
